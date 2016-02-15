@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>stkatherine</name>
+            <ExtendedData>
+                <Data name="name"><value>stkatherine</value></Data>
+                <Data name="title"><value>st Katherine's church</value></Data>
+                <Data name="since"><value>1750</value></Data>
+                <Data name="to"><value>1930</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.607473850250244,56.83832178641261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>kafedral</name>
+            <ExtendedData>
+                <Data name="name"><value>kafedral</value></Data>
+                <Data name="title"><value>Epiphany kafedral</value></Data>
+                <Data name="since"><value>1750</value></Data>
+                <Data name="to"><value>1930</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.59692203998566,56.83788456494855</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>fhummer</name>
+            <ExtendedData>
+                <Data name="name"><value>fhumer</value></Data>
+                <Data name="title"><value>Forge hummer</value></Data>
+                <Data name="since"><value>1720</value></Data>
+                <Data name="to"><value>1800</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.605478286743164,56.83587738881366</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>bfurnance</name>
+            <ExtendedData>
+                <Data name="name"><value>bfurnance</value></Data>
+                <Data name="title"><value>Blast furnace</value></Data>
+                <Data name="since"><value>1720</value></Data>
+                <Data name="to"><value>1800</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.604689717292786,56.83722138707603</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ustu</name>
+            <ExtendedData>
+                <Data name="name"><value>ustu</value></Data>
+                <Data name="title"><value>Ural State Technical University</value></Data>
+                <Data name="since"><value>1930</value></Data>
+                <Data name="to"><value>2020</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.653886795043945,56.84398466344127</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>administration</name>
+            <ExtendedData>
+                <Data name="name"><value>administration</value></Data>
+                <Data name="title"><value>City's administration</value></Data>
+                <Data name="since"><value>1930</value></Data>
+                <Data name="to"><value>2020</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.59758186340332,56.83715389486406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>iset</name>
+            <ExtendedData>
+                <Data name="name"><value>iset</value></Data>
+                <Data name="title"><value>Iset hotel</value></Data>
+                <Data name="since"><value>1930</value></Data>
+                <Data name="to"><value>2020</value></Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>60.620949268341064,56.840604645083125</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

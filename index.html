@@ -1,0 +1,52 @@
+<CTYPE html>
+<html lang="en" ng-app="CHistory">
+<head>
+<meta charset="UTF-8">
+    <title>The History of Yekaterinburg</title>
+
+    <script src="Cesium/Cesium.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+
+    <link rel="stylesheet" type="text/css" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/2.8.0/rzslider.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/2.8.0/rzslider.min.js"></script>
+
+    <link rel="stylesheet" href="layout.css"></link>
+    <script src="pathParser.js"></script>
+</head>
+<body ng-controller="MenuController" ng-cloak>
+  <div id="menuContainer">
+    <div class="epLayers">
+        <div id="established"><a href="#!/article/the_begining">Town established</a></div>
+        <div ng-repeat="layer in menu.layers" id="layer-{{layer.name}}">
+            <input type="checkbox" ng-model="layer.active" class="layer-checkbox"
+                ng-change="updateLayers(layer);">
+            <a ng-bind="layer.label" class="layer-label" href="#!/article/{{layer.name}}"></a>
+            <div><span class="opacity">Opacity:</span>
+                <input type="range" min="0" max="1" step="0.05"
+                    ng-model="layer.opacity" class="opacity-slider" 
+                    ng-change="updateOpacity(layer);" />
+            </div>
+            <div ng-if="layer.note" ng-bind="layer.note" class="layer-note"></div>          
+        </div>
+        <div id="back-to-e">Town renamed back to Yekaterinburg</div>
+    </div>
+    <div id="epoch-slider-container">
+        <rzslider rz-slider-model="slider.value"
+                  rz-slider-options="slider.options"></rzslider>
+    </div>
+  </div>
+  <div id="arrow" ng-show="article" ng-style="{top: article.arrow}">
+    <svg viewbox="0 0 10 10">
+      <path class="arrow" d="M 10,0 L 0,5 L 10,10 Z" />
+    </svg>
+  </div>
+  <div id="article-container" ng-show="article">
+    <a id="article-close" href="#!/">X</a>
+    <div id="content" ng-include="article.include"></div>
+  </div>
+  <div id="cesiumContainer"></div>
+  <script src="yekat.js"></script>
+</body>
+</html>
+
