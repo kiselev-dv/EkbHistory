@@ -135,7 +135,7 @@ angular.module('CHistory', ['rzModule', 'mePathParser'])
                 var entity = entities[i];
                 var ed = entity.kml.extendedData;
                 
-                entityByName[entity.name] = {
+                entityByName[entity.id] = {
                     'entity': entity,
                     since: parseInt(ed.since.value),
                     to: parseInt(ed.to.value)

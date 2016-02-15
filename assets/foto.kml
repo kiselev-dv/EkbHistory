@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
     <Document>
-        <Placemark>
-            <name>stkatherine</name>
+        <Placemark id="stkatherine">
+            <name>st. Katherine's church</name>
             <ExtendedData>
-                <Data name="name"><value>stkatherine</value></Data>
-                <Data name="title"><value>st Katherine's church</value></Data>
                 <Data name="since"><value>1750</value></Data>
                 <Data name="to"><value>1930</value></Data>
             </ExtendedData>
@@ -13,11 +11,9 @@
                 <coordinates>60.607473850250244,56.83832178641261</coordinates>
             </Point>
         </Placemark>
-        <Placemark>
-            <name>kafedral</name>
+        <Placemark id="kafedral">
+            <name>Epiphany kafedral</name>
             <ExtendedData>
-                <Data name="name"><value>kafedral</value></Data>
-                <Data name="title"><value>Epiphany kafedral</value></Data>
                 <Data name="since"><value>1750</value></Data>
                 <Data name="to"><value>1930</value></Data>
             </ExtendedData>
@@ -25,11 +21,9 @@
                 <coordinates>60.59692203998566,56.83788456494855</coordinates>
             </Point>
         </Placemark>
-        <Placemark>
-            <name>fhummer</name>
+        <Placemark id="fhummer">
+            <name>Finery hummer</name>
             <ExtendedData>
-                <Data name="name"><value>fhumer</value></Data>
-                <Data name="title"><value>Forge hummer</value></Data>
                 <Data name="since"><value>1720</value></Data>
                 <Data name="to"><value>1800</value></Data>
             </ExtendedData>
@@ -37,11 +31,9 @@
                 <coordinates>60.605478286743164,56.83587738881366</coordinates>
             </Point>
         </Placemark>
-        <Placemark>
-            <name>bfurnance</name>
+        <Placemark id="bfurnance"> 
+            <name>Blast furnace</name>
             <ExtendedData>
-                <Data name="name"><value>bfurnance</value></Data>
-                <Data name="title"><value>Blast furnace</value></Data>
                 <Data name="since"><value>1720</value></Data>
                 <Data name="to"><value>1800</value></Data>
             </ExtendedData>
@@ -49,11 +41,9 @@
                 <coordinates>60.604689717292786,56.83722138707603</coordinates>
             </Point>
         </Placemark>
-        <Placemark>
-            <name>ustu</name>
+        <Placemark id="ustu">
+            <name>Ural State Technical University</name>
             <ExtendedData>
-                <Data name="name"><value>ustu</value></Data>
-                <Data name="title"><value>Ural State Technical University</value></Data>
                 <Data name="since"><value>1930</value></Data>
                 <Data name="to"><value>2020</value></Data>
             </ExtendedData>
@@ -61,11 +51,9 @@
                 <coordinates>60.653886795043945,56.84398466344127</coordinates>
             </Point>
         </Placemark>
-        <Placemark>
-            <name>administration</name>
+        <Placemark id="administration">
+            <name>City's administration</name>
             <ExtendedData>
-                <Data name="name"><value>administration</value></Data>
-                <Data name="title"><value>City's administration</value></Data>
                 <Data name="since"><value>1930</value></Data>
                 <Data name="to"><value>2020</value></Data>
             </ExtendedData>
@@ -73,11 +61,9 @@
                 <coordinates>60.59758186340332,56.83715389486406</coordinates>
             </Point>
         </Placemark>
-        <Placemark>
-            <name>iset</name>
+        <Placemark id="iset">
+            <name>Iset hotel</name>
             <ExtendedData>
-                <Data name="name"><value>iset</value></Data>
-                <Data name="title"><value>Iset hotel</value></Data>
                 <Data name="since"><value>1930</value></Data>
                 <Data name="to"><value>2020</value></Data>
             </ExtendedData>
