@@ -1,4 +1,4 @@
-<CTYPE html>
+<!DOCTYPE html>
 <html lang="en" ng-app="CHistory">
 <head>
 <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <script src="Cesium/Cesium.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
 
-    <link rel="stylesheet" type="text/css" 
+    <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/2.8.0/rzslider.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/2.8.0/rzslider.min.js"></script>
 
@@ -24,10 +24,10 @@
             <a ng-bind="layer.label" class="layer-label" href="#!/article/{{layer.name}}"></a>
             <div><span class="opacity">Opacity:</span>
                 <input type="range" min="0" max="1" step="0.05"
-                    ng-model="layer.opacity" class="opacity-slider" 
+                    ng-model="layer.opacity" class="opacity-slider"
                     ng-change="updateOpacity(layer);" />
             </div>
-            <div ng-if="layer.note" ng-bind="layer.note" class="layer-note"></div>          
+            <div ng-if="layer.note" ng-bind="layer.note" class="layer-note"></div>
         </div>
         <div id="back-to-e">Town renamed back to Yekaterinburg</div>
     </div>
@@ -49,4 +49,3 @@
   <script src="yekat.js"></script>
 </body>
 </html>
-
